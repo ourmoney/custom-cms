@@ -1,0 +1,77 @@
+@media only screen and (min-width:@screen-lg) {
+	section {
+		width: 100%;
+		&.primary{
+			margin: 20px 0px;
+		}
+		.container{
+			width: 1324px; 
+			.content-container-nopadding{
+				width: 1024px;
+				margin: 0px auto;
+			}
+			.hidden-box{
+				display: none;
+			}
+			.content-container{
+				width: 1054px; /* 1024 + 30 */
+				margin: 0px auto;
+			}
+		}
+		.service-sector{
+			background: transparent;
+		}
+	}
+
+	section.page{
+		#header-search{
+			right:166px;
+            .input-group{
+                width:290px;
+                padding-right: 15px;
+            }
+        }
+         #topnav{           
+            .container{
+                width:1024px;
+                > ul{                   
+                    > li{
+                       margin-right: 6.97%;                        
+                       }
+                   }
+               }
+           }
+	}
+
+	footer {
+		&.footer-container{
+			width: 1054px;
+		} 
+
+	}
+
+	#patent-sectors{
+        section{
+            &.page-header{            
+                    
+                .bg-overlay{
+                    
+                    .page-headr-text{
+                        padding-top:70px;                        
+                    }                
+                }                
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1199px) and (max-width: 1300px){
+	section.page{
+
+		.container{
+				max-width: 100%; 
+		}
+		#header-search{
+			right: 12%;
+		}
+	}
+}
